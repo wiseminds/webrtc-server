@@ -1,0 +1,30 @@
+{
+  "name": "webrtc-server",
+  "version": "1.0.0",
+  "description": "A webrtc turn server using MediaSoup",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "dev": "npx nodemon",
+    "start": "npm build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiseminds/webrtc-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiseminds/webrtc-server/issues"
+  },
+  "homepage": "https://github.com/wiseminds/webrtc-server#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "rimraf": "^4.1.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
