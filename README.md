@@ -1,2 +1,2 @@
 # webrtc-server
-A webrtc turn server using MediaSoup
+A webrtc stun server using MediaSoup
